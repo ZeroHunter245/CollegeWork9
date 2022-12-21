@@ -11,12 +11,15 @@
     margin: 0;
     padding: 0;
 }
+
 html {
     font-family: 'Roboto', sans-serif;
 }
+
 body {
     background-color: #F5F5F5;
 }
+
 .block {
     display: flex;
     justify-content: space-between;
@@ -27,18 +30,21 @@ body {
 .cards {
     flex-wrap: wrap;
 }
+
 /* ограничение по ширине и выставляет по середине */
 .container {
     max-width: 1200px;
     width: 100%;
     margin: auto;
 }
+
 .input {
     border: 1px solid #D9D9D9;
     border-radius: 2px;
     width: 100%;
     padding-left: 32px;
 }
+
 /* Отступ от вершины страницы*/
 .header {
     padding-top: 40px;
@@ -52,6 +58,7 @@ body {
     height: 40px;
     background: url('../img/Home.svg') no-repeat 10px center;
 }
+
 .input::placeholder {
     font-family: SF Pro Display;
     font-style: normal;
@@ -93,20 +100,24 @@ body {
     border: 1px solid #D9D9D9;
     margin-left: 8px;
 }
+
 /* Секция promo */
 .section-promo {
     margin-bottom: 56px;
 }
+
 .promo-block {
     background: #FFF1B8 url('../img/pomidor.png') no-repeat right;
     border-radius: 10px;
     padding: 68px 71px;
     filter: drop-shadow(0px 7px 12px rgba(158, 158, 163, 0.1));
 }
+
 .text-block {
     max-width: 500px;
     width: 100%;
 }
+
 .promo-title {
     max-width: 438px;
     font-family: 'Roboto';
@@ -117,6 +128,7 @@ body {
     color: #302C34;
     margin-bottom: 16px;
 }
+
 .promo-description {
     font-family: 'Roboto';
     font-style: normal;
@@ -127,17 +139,23 @@ body {
 }
 
 /* Секция рестораны */
+.section-rest {
+    padding-bottom: 91px;
+}
+
 .section__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 44px;
 }
+
 .search-input {
     width: 306px;
     height: 34px;
     background: url('../img/Search.svg') no-repeat 10px center;
 }
+
 .card {
     max-width: 384px;
     width: 100%;
@@ -145,16 +163,19 @@ body {
     background-color: #fff;
     border-radius: 7px;
 }
+
 .card-main {
     padding: 21px 24px 35px;
     position: relative;
 }
+
 .card-main__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
 }
+
 .cart-title {
     font-family: Roboto;
     font-style: normal;
@@ -162,6 +183,7 @@ body {
     font-size: 24px;
     line-height: 32px;
 }
+
 .time-write {
     background-color: #262626;
     border-radius: 2px;
@@ -173,6 +195,7 @@ body {
     color: #FFFFFF;
     padding: 5px 8px;
 }
+
 .rating {
     position: relative;
     font-family: Roboto;
@@ -184,6 +207,7 @@ body {
     margin-right: 26px;
     color: #FFC107;
 }
+
 .rating::before {
     content: '';
     width: 15px;
@@ -193,6 +217,7 @@ body {
     top: 2px;
     left: -22px;
 }
+
 .midprice {
     font-family: 'Roboto';
 font-style: normal;
@@ -202,6 +227,7 @@ line-height: 32px;
 color: #8C8C8C;
 margin-right: 25px;
 }
+
 .dish {
     position: relative;
     font-family: 'Roboto';
@@ -211,6 +237,7 @@ margin-right: 25px;
     line-height: 32px;
     color: #8C8C8C;
 }
+
 .dish::before {
     content: '';
     width: 5px;
@@ -220,4 +247,40 @@ margin-right: 25px;
     top: 50%;
     left: -15px;
     margin-top: -3px;
+}
+
+/* footer-секция*/
+.footer {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.footer-block {
+    max-width: 556px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation {
+    max-width: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 18px;
+    line-height: 21px;
+    color: #595959;
+    text-decoration: none;
+}
+
+.social-block {
+    max-width: 127px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
